@@ -1,0 +1,10 @@
+{
+"flute": {"category": "master","sounds": [{"name":"flute", "stream":false}]},
+ "drum": {"category": "master","sounds": [{"name":"drum", "stream":false}]},
+ "ukulele": {"category": "master","sounds": [{"name":"ukulele", "stream":false}]},
+ "oboe": {"category": "master","sounds": [{"name":"oboe", "stream":false}]},
+ "ocarina": {"category": "master","sounds": [{"name":"ocarina", "stream":false}]},
+ "horn": {"category": "master","sounds": [{"name":"horn", "stream":false}]},
+ "bagpipe": {"category": "master","sounds": [{"name":"bagpipe", "stream":false}]},
+ "drummer": {"category": "master","sounds": [{"name":"/entities/drummer", "stream":false}]}
+}

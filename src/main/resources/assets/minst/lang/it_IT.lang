@@ -1,0 +1,43 @@
+#Items
+
+#T1
+item.t1flute.name=Flauto
+item.t1drum.name=Tamburo
+item.t1oboe.name=Oboe
+item.t1ukulele.name=Ukulele
+item.t1ocarina.name=Ocarina
+item.t1bagpipe.name=Cornamusa
+item.t1horn.name=Corno
+
+#T2
+item.t2flute.name=Flauto del Nether
+item.t2drum.name=Tamburo del Nether
+item.t2oboe.name=Oboe del Nether
+item.t2ukulele.name=Ukulele del Nether
+item.t2ocarina.name=Ocarina del Nether
+item.t2bagpipe.name=Cornamusa del Nether
+item.t2horn.name=Corno del Nether
+
+#T3
+item.t3flute.name=Flauto dell'End
+item.t3drum.name=Tamburo dell'End
+item.t3oboe.name=Oboe dell'End
+item.t3ukulele.name=Ukulele dell'End
+item.t3ocarina.name=Ocarina dell'End
+item.t3bagpipe.name=Cornamusa dell'End
+item.t3horn.name=Corno dell'End
+
+item.goldennote.name=Nota Dorata
+item.nethernote.name=Nota del Nether
+item.endernote.name=Nota dell'End
+item.noteofthelegion.name=Change Me
+
+#Creative Tabs
+itemGroup.instTab=Magical Instruments
+
+#Entities
+
+entity.drummer.name=Tamburiere Musimagico
+entity.ogre.name=Centurione Musimagico
+
+#Blocks

@@ -1,0 +1,46 @@
+#Items
+
+#T1
+item.t1flute.name=Flute
+item.t1drum.name=Drum
+item.t1oboe.name=Oboe
+item.t1ukulele.name=Ukulele
+item.t1ocarina.name=Ocarina
+item.t1bagpipe.name=Bagpipe
+item.t1horn.name=Horn
+
+#T2
+item.t2flute.name=Nether Flute
+item.t2drum.name=Nether Drum
+item.t2oboe.name=Nether Oboe
+item.t2ukulele.name=Nether Ukulele
+item.t2ocarina.name=Nether Ocarina
+item.t2bagpipe.name=Nether Bagpipe
+item.t2horn.name=Nether Horn
+
+#T3
+item.t3flute.name=Ender Flute
+item.t3drum.name=Ender Drum
+item.t3oboe.name=Ender Oboe
+item.t3ukulele.name=Ender Ukulele
+item.t3ocarina.name=Ender Ocarina
+item.t3bagpipe.name=Ender Bagpipe
+item.t3horn.name=Ender Horn
+
+#T4 Legendary
+item.orcishdrum.name=Orcish Drum
+
+item.goldennote.name=Golden Note
+item.nethernote.name=Nether Note
+item.endernote.name=Ender Note
+item.noteofthelegion.name=Note Of The Legion
+
+#Creative Tabs
+itemGroup.instTab=Magical Instruments
+
+#Entities
+entity.drummer.name=Musimagical Drummer
+entity.ogre.name=Musimagical Centurion
+
+#Blocks
+tile.bossspawner.name=Musical Altar
