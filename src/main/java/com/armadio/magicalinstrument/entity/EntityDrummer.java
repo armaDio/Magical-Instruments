@@ -19,7 +19,7 @@ public class EntityDrummer extends EntityMob implements IBossDisplayData {
 
     public static int MAX_COOLDOWN = 200;
     public boolean isBuffing = false;
-    public int cooldown = 0;
+    public int cooldown = 100;
 
     public EntityDrummer(World par1World) {
         super(par1World);
@@ -35,7 +35,8 @@ public class EntityDrummer extends EntityMob implements IBossDisplayData {
 
     @Override
     public IEntityLivingData onSpawnWithEgg(IEntityLivingData p_110161_1_) {
-        BossStatus.setBossStatus(this, false);
+        if(worldObj.isRemote)
+            BossStatus.setBossStatus(this, false);
         return super.onSpawnWithEgg(p_110161_1_);
     }
 
@@ -52,7 +53,10 @@ public class EntityDrummer extends EntityMob implements IBossDisplayData {
 
     @Override
     public void onEntityUpdate() {
-        BossStatus.setBossStatus(this,false);
+        if(worldObj.isRemote)
+            BossStatus.setBossStatus(this,false);
+        if(cooldown>0)
+            cooldown--;
         super.onEntityUpdate();
     }
 

@@ -64,7 +64,7 @@ public class EntityAIBuff extends EntityAIBase {
         {
             EntityOrc entityanimal1 = (EntityOrc)iterator.next();
 
-            if (!entityanimal1.isPotionActive(Potion.damageBoost.id) && this.buffer.getDistanceSqToEntity(entityanimal1) < d0)
+            if (!entityanimal1.isPotionActive(Potion.damageBoost.id) && this.buffer.getDistanceSqToEntity(entityanimal1) < d0 && this.buffer.cooldown == 0)
             {
                 entityanimal = entityanimal1;
                 d0 = this.buffer.getDistanceSqToEntity(entityanimal1);
@@ -77,7 +77,6 @@ public class EntityAIBuff extends EntityAIBase {
     private void applyBuff(){
         this.buffer.isBuffing = true;
         Random random = this.buffer.getRNG();
-        this.buffer.cooldown = (int)(random.nextGaussian()*EntityDrummer.MAX_COOLDOWN);
 
         double d0 = random.nextGaussian() * 0.02D;
         double d1 = random.nextGaussian() * 0.02D;
@@ -89,6 +88,8 @@ public class EntityAIBuff extends EntityAIBase {
         mate.addPotionEffect(new PotionEffect(Potion.fireResistance.id,600,9));
         mate.addPotionEffect(new PotionEffect(Potion.jump.id,600,1));
         mate.addPotionEffect(new PotionEffect(Potion.regeneration.id,600,1));
+
+        theWorld.playSoundAtEntity(buffer,"minst:drummer", 1, 1);
 
         resetTask();
     }

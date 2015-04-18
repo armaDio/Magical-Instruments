@@ -5,8 +5,6 @@ import com.armadio.magicalinstrument.entity.EntityDrummer;
 import com.armadio.magicalinstrument.entity.EntityOrc;
 import com.armadio.magicalinstrument.lib.Reference;
 import com.armadio.magicalinstrument.tileentities.TileEntityBossAltar;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.particle.EffectRenderer;
@@ -79,7 +77,7 @@ public class BossAltar extends BlockContainer{
             dropBlockAsItem(p_149727_1_, x, y, z, tileEntity.getStackInSlot(0));
             tileEntity.resetInventory();
         } else if (player.getHeldItem() == null && tileEntity.shouldDrop()) {
-            activateRitual(p_149727_1_, x, y, z, player.getRNG());
+            activateRitual(p_149727_1_, x, y, z, new Random());
             tileEntity.resetInventory();
         } else if (player.getHeldItem() != null && player.getHeldItem().getUnlocalizedName().equals(Items.nether_star.getUnlocalizedName()) && !tileEntity.shouldDrop()) {
             tileEntity.setInventorySlotContents(0, new ItemStack(player.getCurrentEquippedItem().getItem(), 1));
@@ -88,7 +86,7 @@ public class BossAltar extends BlockContainer{
         return super.onBlockActivated(p_149727_1_, x, y, z, player, p_149727_6_, p_149727_7_, p_149727_8_, p_149727_9_);
     }
 
-    @SideOnly(Side.CLIENT)
+
     private void activateRitual(World world, int x, int y, int z, Random random) {
         float f1 = x + 0.5F;
         float f2 = y + 1.1F;

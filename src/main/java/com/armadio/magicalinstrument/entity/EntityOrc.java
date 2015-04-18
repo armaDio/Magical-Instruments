@@ -32,7 +32,8 @@ public class EntityOrc extends EntityMob implements IBossDisplayData {
 
     @Override
     public IEntityLivingData onSpawnWithEgg(IEntityLivingData p_110161_1_) {
-        BossStatus.setBossStatus(this, false);
+        if(worldObj.isRemote)
+            BossStatus.setBossStatus(this, false);
         return super.onSpawnWithEgg(p_110161_1_);
     }
 
@@ -49,7 +50,8 @@ public class EntityOrc extends EntityMob implements IBossDisplayData {
 
     @Override
     public void onEntityUpdate() {
-        BossStatus.setBossStatus(this,false);
+        if(worldObj.isRemote)
+            BossStatus.setBossStatus(this,false);
         super.onEntityUpdate();
     }
 
