@@ -49,10 +49,13 @@ public class AddedItemsBlocks {
 
     //legendary instruments
     public static Item orcishdrum;
+    public static Item orcishoboe;
+    public static Item orcishocarina;
+    public static Item orcishhorn;
 
     public static Block spawner;
-
     public static TileEntity spawner_ent;
+
 
     public static void initItems(){
         //t1 instruments
@@ -91,12 +94,17 @@ public class AddedItemsBlocks {
 
         //legendary instruments
         orcishdrum = new Drum(4); GameRegistry.registerItem(orcishdrum,"orcishdrum");
+        orcishoboe = new Oboe(4); GameRegistry.registerItem(orcishoboe,"orcishoboe");
+        orcishocarina = new Ocarina(4); GameRegistry.registerItem(orcishocarina, "zelda");
+        orcishhorn = new Horn(4); GameRegistry.registerItem(orcishhorn, "orcishhorn");
     }
-    public static void initBlocks(){
-        spawner = new BossAltar(); GameRegistry.registerBlock(spawner,"bossspawner");
-        spawner_ent = new TileEntityBossAltar(); GameRegistry.registerTileEntity(spawner_ent.getClass(),"bossspawner");
-    }
+    public static void initBlocks() {
+        spawner = new BossAltar();
+        GameRegistry.registerBlock(spawner, "bossspawner");
+        spawner_ent = new TileEntityBossAltar();
+        GameRegistry.registerTileEntity(spawner_ent.getClass(), "bossspawner");
 
+    }
     public static EnumRarity getRarityfromTier(int tier){
         EnumRarity rarity = EnumRarity.common;
         switch (tier){
@@ -113,4 +121,5 @@ public class AddedItemsBlocks {
         return rarity;
 
     }
+
 }

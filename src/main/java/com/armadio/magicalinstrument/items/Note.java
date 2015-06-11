@@ -39,4 +39,5 @@ public class Note extends Item {
     public EnumRarity getRarity(ItemStack p_77613_1_) {
         return AddedItemsBlocks.getRarityfromTier(tier);
     }
+
 }

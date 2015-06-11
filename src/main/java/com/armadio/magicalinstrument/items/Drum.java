@@ -21,9 +21,9 @@ import net.minecraft.world.World;
 public class Drum extends Item {
     private int tier;
 
-    private static final int T1DURATION = MinstConfiguration.t1duration;
-    private static final int T2DURATION = MinstConfiguration.t2duration;
-    private static final int T3DURATION = MinstConfiguration.t3duration;
+    private static final int T1DURATION = MinstConfiguration.t1duration * 20;
+    private static final int T2DURATION = MinstConfiguration.t2duration * 20;
+    private static final int T3DURATION = MinstConfiguration.t3duration * 20;
     private static final int T4DURATION = 24000;
     private static final int T1DURABILITY = MinstConfiguration.t1durability;
     private static final int T2DURABILITY = MinstConfiguration.t2durability;
@@ -42,22 +42,22 @@ public class Drum extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1drum");
-                this.setTextureName(Reference.MOD_ID+":drum");
+                this.setTextureName(Reference.MOD_ID+":/drum/drum1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2drum");
-                this.setTextureName(Reference.MOD_ID+":drum");
+                this.setTextureName(Reference.MOD_ID+":/drum/drum2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3drum");
-                this.setTextureName(Reference.MOD_ID+":drum");
+                this.setTextureName(Reference.MOD_ID+":/drum/drum3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishdrum");
-                this.setTextureName(Reference.MOD_ID + ":drum");
+                this.setTextureName(Reference.MOD_ID + ":/drum/drum4");
                 this.setMaxDamage(32);
                 break;
         }

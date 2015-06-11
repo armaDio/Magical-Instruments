@@ -22,15 +22,17 @@ public class Horn extends Item {
     private int tier;
 
 
-    private static final int T1DURATION = MinstConfiguration.t1duration;
-    private static final int T2DURATION = MinstConfiguration.t2duration;
-    private static final int T3DURATION = MinstConfiguration.t3duration;
+    private static final int T1DURATION = MinstConfiguration.t1duration * 20;
+    private static final int T2DURATION = MinstConfiguration.t2duration * 20;
+    private static final int T3DURATION = MinstConfiguration.t3duration * 20;
+    private static final int T4DURATION = 24000;
     private static final int T1DURABILITY = MinstConfiguration.t1durability;
     private static final int T2DURABILITY = MinstConfiguration.t2durability;
     private static final int T3DURABILITY = MinstConfiguration.t3durability;
     private static final int T1LEVEL = 0;
     private static final int T2LEVEL = 1;
     private static final int T3LEVEL = 2;
+    private static final int T4LEVEL = 4;
 
 
     public Horn(int tier){
@@ -42,18 +44,23 @@ public class Horn extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1horn");
-                this.setTextureName(Reference.MOD_ID+":horn");
+                this.setTextureName(Reference.MOD_ID+":/horn/horn1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2horn");
-                this.setTextureName(Reference.MOD_ID+":horn");
+                this.setTextureName(Reference.MOD_ID+":/horn/horn2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3horn");
-                this.setTextureName(Reference.MOD_ID+":horn");
+                this.setTextureName(Reference.MOD_ID+":/horn/horn3");
                 this.setMaxDamage(T3DURABILITY);
+                break;
+            case 4:
+                this.setUnlocalizedName("orcishhorn");
+                this.setTextureName(Reference.MOD_ID+":/horn/horn4");
+                this.setMaxDamage(32);
                 break;
         }
     }
@@ -82,6 +89,9 @@ public class Horn extends Item {
                 case 3:
                     player.addPotionEffect(new PotionEffect(Potion.resistance.id, T3DURATION, T3LEVEL));
                     break;
+                case 4:
+                    player.addPotionEffect(new PotionEffect(Potion.resistance.id, T4DURATION, T4LEVEL));
+                    break;
             }
         }else{ChunkCoordinates pos = player.getPlayerCoordinates();
             for(Object el : (world.getEntitiesWithinAABB(EntityPlayer.class,AxisAlignedBB.getBoundingBox(pos.posX-10,pos.posY-2,pos.posZ-10,pos.posX+10,pos.posY+2,pos.posZ+10)))) {
@@ -94,6 +104,9 @@ public class Horn extends Item {
                         break;
                     case 3:
                         ((EntityPlayer) el).addPotionEffect(new PotionEffect(Potion.resistance.id, T3DURATION, T3LEVEL));
+                        break;
+                    case 4:
+                        ((EntityPlayer) el).addPotionEffect(new PotionEffect(Potion.resistance.id, T4DURATION, T4LEVEL));
                         break;
                 }
             }

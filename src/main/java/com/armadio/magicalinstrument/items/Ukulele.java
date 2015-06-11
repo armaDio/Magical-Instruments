@@ -22,9 +22,9 @@ public class Ukulele extends Item {
     private int tier;
 
 
-    private static final int T1DURATION = MinstConfiguration.t1duration;
-    private static final int T2DURATION = MinstConfiguration.t2duration;
-    private static final int T3DURATION = MinstConfiguration.t3duration;
+    private static final int T1DURATION = MinstConfiguration.t1duration * 20;
+    private static final int T2DURATION = MinstConfiguration.t2duration * 20;
+    private static final int T3DURATION = MinstConfiguration.t3duration * 20;
     private static final int T1DURABILITY = MinstConfiguration.t1durability;
     private static final int T2DURABILITY = MinstConfiguration.t2durability;
     private static final int T3DURABILITY = MinstConfiguration.t3durability;
@@ -41,17 +41,17 @@ public class Ukulele extends Item {
         switch(tier){
             case 1:
                 this.setUnlocalizedName("t1ukulele");
-                this.setTextureName(Reference.MOD_ID+":ukulele");
+                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2ukulele");
-                this.setTextureName(Reference.MOD_ID+":ukulele");
+                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3ukulele");
-                this.setTextureName(Reference.MOD_ID+":ukulele");
+                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
         }
