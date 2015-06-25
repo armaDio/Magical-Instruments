@@ -134,6 +134,20 @@ public class ItemRecipes {
                 "C  ",
                 'I', Items.iron_ingot, 'C', ModItemsBlocks.noteofthelegion);
 
+        GameRegistry.addRecipe(new ItemStack(ModItemsBlocks.orcishukulele), "WW ",
+                "CCS",
+                "WW ",
+                'W', Blocks.planks, 'C', ModItemsBlocks.noteofthelegion,'S',Items.stick);
+        GameRegistry.addRecipe(new ItemStack(ModItemsBlocks.orcishbagpipe), " S ",
+                "SLC",
+                "CL ",
+                'L', Items.leather, 'C', ModItemsBlocks.noteofthelegion,'S',Items.stick);
+        GameRegistry.addRecipe(new ItemStack(ModItemsBlocks.orcishflute), "  C",
+                " S ",
+                "C  ",
+                'S', Items.stick, 'C',
+                ModItemsBlocks.noteofthelegion);
+
 
         //notes
         GameRegistry.addRecipe(new ItemStack(ModItemsBlocks.nethernote), "BBB",
