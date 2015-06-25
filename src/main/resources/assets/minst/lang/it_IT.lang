@@ -27,6 +27,16 @@ item.t3ocarina.name=Ocarina dell'End
 item.t3bagpipe.name=Cornamusa dell'End
 item.t3horn.name=Corno dell'End
 
+
+#T4 Legendary
+item.orcishdrum.name=Raijin's Drum
+item.orcishoboe.name=Clarry
+item.orcishukulele.name=Liuto di Väinämöinen
+item.orcishbagpipe.name=Vígríðr Fierce
+item.orcishhorn.name=Gjallarhorn
+item.orcishflute.name=Syrinx
+item.zelda.name=Ocarina of Time
+
 item.goldennote.name=Nota Dorata
 item.nethernote.name=Nota del Nether
 item.endernote.name=Nota dell'End

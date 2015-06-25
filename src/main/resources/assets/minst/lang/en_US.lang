@@ -28,13 +28,13 @@ item.t3bagpipe.name=Ender Bagpipe
 item.t3horn.name=Ender Horn
 
 #T4 Legendary
-item.orcishdrum.name=Orcish Drum
-item.orcishoboe.name=Orcish Oboe
-item.orcishukulele.name=Orcish Oboe
-item.orcishbagpipe.name=Orcish Oboe
-item.orcishhorn.name=Orcish Oboe
-item.orcishflute.name=Orcish Oboe
-item.zelda.name=Link©'s  Ocarina
+item.orcishdrum.name=Raijin's Drum
+item.orcishoboe.name=Clarry
+item.orcishukulele.name=Väinämöinen's Lute
+item.orcishbagpipe.name=Vígríðr Fierce
+item.orcishhorn.name=Gjallarhorn
+item.orcishflute.name=Syrinx
+item.zelda.name=Ocarina of Time
 
 item.goldennote.name=Golden Note
 item.nethernote.name=Nether Note
