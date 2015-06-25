@@ -46,9 +46,6 @@ public class ItemRendererOrcishHorn implements IItemRenderer {
                 Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Reference.MOD_ID,"textures/models/OrcishHornTexture.png"));
 
                 GL11.glRotatef(+180,0,0,1);
-                /*GL11.glRotatef(+180,1,0,0);
-                GL11.glRotatef(+180,0,1,0);
-                GL11.glRotatef(-45,0,0,1);*/
 
                 GL11.glTranslatef(-0.5F,-0.5F,00F);
                 GL11.glScalef(0.2f,0.2f,0.2f);
