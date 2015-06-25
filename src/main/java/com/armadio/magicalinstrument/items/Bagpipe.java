@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.items;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.MagicalInstrument;
 import com.armadio.magicalinstrument.lib.MinstConfiguration;
 import com.armadio.magicalinstrument.lib.Reference;
@@ -22,9 +22,9 @@ import net.minecraft.world.World;
 public class Bagpipe extends Item {
     private int tier;
 
-    private static final int T1DURATION = MinstConfiguration.t1duration * 20;
-    private static final int T2DURATION = MinstConfiguration.t2duration * 20;
-    private static final int T3DURATION = MinstConfiguration.t3duration * 20;
+    private static final int T1DURATION = MinstConfiguration.t1duration;
+    private static final int T2DURATION = MinstConfiguration.t2duration;
+    private static final int T3DURATION = MinstConfiguration.t3duration;
     private static final int T1DURABILITY = MinstConfiguration.t1durability;
     private static final int T2DURABILITY = MinstConfiguration.t2durability;
     private static final int T3DURABILITY = MinstConfiguration.t3durability;
@@ -54,12 +54,17 @@ public class Bagpipe extends Item {
                 this.setTextureName(Reference.MOD_ID + ":/bagpipe/bagpipe3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
+            case 4:
+                this.setUnlocalizedName("orcishbagpipe");
+                this.setTextureName(Reference.MOD_ID + ":/bagpipe/bagpipe4");
+                this.setMaxDamage(32);
+                break;
         }
     }
 
     @Override
     public EnumRarity getRarity(ItemStack p_77613_1_) {
-        return AddedItemsBlocks.getRarityfromTier(tier);
+        return ModItemsBlocks.getRarityfromTier(tier);
     }
 
     @Override

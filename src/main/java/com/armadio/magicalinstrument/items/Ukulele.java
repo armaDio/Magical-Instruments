@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.items;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.MagicalInstrument;
 import com.armadio.magicalinstrument.lib.MinstConfiguration;
 import com.armadio.magicalinstrument.lib.Reference;
@@ -54,12 +54,17 @@ public class Ukulele extends Item {
                 this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
+            case 4:
+                this.setUnlocalizedName("orcishukulele");
+                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele4");
+                this.setMaxDamage(32);
+                break;
         }
     }
 
     @Override
     public EnumRarity getRarity(ItemStack p_77613_1_) {
-        return AddedItemsBlocks.getRarityfromTier(tier);
+        return ModItemsBlocks.getRarityfromTier(tier);
     }
 
     @Override

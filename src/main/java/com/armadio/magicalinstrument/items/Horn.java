@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.items;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.MagicalInstrument;
 import com.armadio.magicalinstrument.lib.MinstConfiguration;
 import com.armadio.magicalinstrument.lib.Reference;
@@ -67,7 +67,7 @@ public class Horn extends Item {
 
     @Override
     public EnumRarity getRarity(ItemStack p_77613_1_) {
-        return AddedItemsBlocks.getRarityfromTier(tier);
+        return ModItemsBlocks.getRarityfromTier(tier);
     }
 
     @Override

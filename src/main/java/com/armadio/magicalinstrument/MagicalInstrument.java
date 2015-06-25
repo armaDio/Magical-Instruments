@@ -51,8 +51,8 @@ public class MagicalInstrument{
         MinstConfiguration.syncConfig();
 
 
-        AddedItemsBlocks.initBlocks();
-        AddedItemsBlocks.initItems();
+        ModItemsBlocks.initBlocks();
+        ModItemsBlocks.initItems();
         ModEntities.initEntities();
         BlockRecipes.initShapedRecipes();
         ItemRecipes.initShapedRecipes();

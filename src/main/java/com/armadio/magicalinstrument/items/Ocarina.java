@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.items;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.MagicalInstrument;
 import com.armadio.magicalinstrument.lib.MinstConfiguration;
 import com.armadio.magicalinstrument.lib.Reference;
@@ -66,7 +66,7 @@ public class Ocarina extends Item {
 
     @Override
     public EnumRarity getRarity(ItemStack p_77613_1_) {
-        return AddedItemsBlocks.getRarityfromTier(tier);
+        return ModItemsBlocks.getRarityfromTier(tier);
     }
 
     @Override
@@ -111,12 +111,12 @@ public class Ocarina extends Item {
             }
         }
         p_77659_1_.damageItem(1,player);
-        if(tier<4) {
+        //if(tier<4) {
             world.playSoundAtEntity(player, "minst:ocarina", 1, 1);
-        }
-        else{
+        //}
+        //else{
             //TODO play T4 new ocarina sound
-        }
+        //}
         return super.onItemRightClick(p_77659_1_, world, player);
     }
 }

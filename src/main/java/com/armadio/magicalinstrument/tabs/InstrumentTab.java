@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.tabs;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
@@ -17,6 +17,6 @@ public class InstrumentTab extends CreativeTabs {
     @Override
     @SideOnly(Side.CLIENT)
     public Item getTabIconItem(){
-        return AddedItemsBlocks.goldennote;
+        return ModItemsBlocks.goldennote;
     }
 }

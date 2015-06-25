@@ -12,7 +12,7 @@ import net.minecraft.tileentity.TileEntity;
 /**
  * Created by armaDio on 27/03/2015.
  */
-public class AddedItemsBlocks {
+public class ModItemsBlocks {
 
     //notes
     public static Item goldennote;
@@ -52,6 +52,9 @@ public class AddedItemsBlocks {
     public static Item orcishoboe;
     public static Item orcishocarina;
     public static Item orcishhorn;
+    public static Item orcishbagpipe;
+    public static Item orcishflute;
+    public static Item orcishukulele;
 
     public static Block spawner;
     public static TileEntity spawner_ent;
@@ -97,6 +100,9 @@ public class AddedItemsBlocks {
         orcishoboe = new Oboe(4); GameRegistry.registerItem(orcishoboe,"orcishoboe");
         orcishocarina = new Ocarina(4); GameRegistry.registerItem(orcishocarina, "zelda");
         orcishhorn = new Horn(4); GameRegistry.registerItem(orcishhorn, "orcishhorn");
+        orcishbagpipe = new Bagpipe(4); GameRegistry.registerItem(orcishbagpipe, "orcishbagpipe");
+        orcishukulele = new Ukulele(4); GameRegistry.registerItem(orcishukulele, "orcishukulele");
+        orcishflute = new Flute(4); GameRegistry.registerItem(orcishflute, "orcishflute");
     }
     public static void initBlocks() {
         spawner = new BossAltar();

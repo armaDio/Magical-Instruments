@@ -1,6 +1,6 @@
 package com.armadio.magicalinstrument.entity;
 
-import com.armadio.magicalinstrument.AddedItemsBlocks;
+import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.entity.ai.EntityAIBuff;
 import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -63,7 +63,7 @@ public class EntityDrummer extends EntityMob implements IBossDisplayData {
     @Override
     public void onDeath(DamageSource p_70645_1_) {
         if(!worldObj.isRemote){
-            dropItem(AddedItemsBlocks.noteofthelegion,1);
+            dropItem(ModItemsBlocks.noteofthelegion,1);
         }
         super.onDeath(p_70645_1_);
     }
