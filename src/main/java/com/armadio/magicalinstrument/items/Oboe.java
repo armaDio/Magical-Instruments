@@ -44,22 +44,22 @@ public class Oboe extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1oboe");
-                this.setTextureName(Reference.MOD_ID+":/oboe/oboe1");
+                this.setTextureName(Reference.MOD_ID+":oboe/oboe1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2oboe");
-                this.setTextureName(Reference.MOD_ID+":/oboe/oboe2");
+                this.setTextureName(Reference.MOD_ID+":oboe/oboe2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3oboe");
-                this.setTextureName(Reference.MOD_ID+":/oboe/oboe3");
+                this.setTextureName(Reference.MOD_ID+":oboe/oboe3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishoboe");
-                this.setTextureName(Reference.MOD_ID + ":/oboe/oboe4");
+                this.setTextureName(Reference.MOD_ID + ":oboe/oboe4");
                 this.setMaxDamage(32);
                 break;
         }

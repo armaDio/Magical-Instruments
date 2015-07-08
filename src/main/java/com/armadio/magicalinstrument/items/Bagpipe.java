@@ -41,22 +41,22 @@ public class Bagpipe extends Item {
         switch(tier){
             case 1:
                 this.setUnlocalizedName("t1bagpipe");
-                this.setTextureName(Reference.MOD_ID+":/bagpipe/bagpipe1");
+                this.setTextureName(Reference.MOD_ID+":bagpipe/bagpipe1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2bagpipe");
-                this.setTextureName(Reference.MOD_ID + ":/bagpipe/bagpipe2");
+                this.setTextureName(Reference.MOD_ID + ":bagpipe/bagpipe2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3bagpipe");
-                this.setTextureName(Reference.MOD_ID + ":/bagpipe/bagpipe3");
+                this.setTextureName(Reference.MOD_ID + ":bagpipe/bagpipe3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishbagpipe");
-                this.setTextureName(Reference.MOD_ID + ":/bagpipe/bagpipe4");
+                this.setTextureName(Reference.MOD_ID + ":bagpipe/bagpipe4");
                 this.setMaxDamage(32);
                 break;
         }

@@ -43,22 +43,22 @@ public class Ocarina extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1ocarina");
-                this.setTextureName(Reference.MOD_ID+":/ocarina/ocarina1");
+                this.setTextureName(Reference.MOD_ID+":ocarina/ocarina1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2ocarina");
-                this.setTextureName(Reference.MOD_ID+":/ocarina/ocarina2");
+                this.setTextureName(Reference.MOD_ID+":ocarina/ocarina2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3ocarina");
-                this.setTextureName(Reference.MOD_ID+":/ocarina/ocarina3");
+                this.setTextureName(Reference.MOD_ID+":ocarina/ocarina3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("zelda");
-                this.setTextureName(Reference.MOD_ID + ":/ocarina/ocarina4");
+                this.setTextureName(Reference.MOD_ID + ":ocarina/ocarina4");
                 this.setMaxDamage(32);
                 break;
         }

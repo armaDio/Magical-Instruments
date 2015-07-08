@@ -41,22 +41,22 @@ public class Ukulele extends Item {
         switch(tier){
             case 1:
                 this.setUnlocalizedName("t1ukulele");
-                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele1");
+                this.setTextureName(Reference.MOD_ID+":ukulele/ukulele1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2ukulele");
-                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele2");
+                this.setTextureName(Reference.MOD_ID+":ukulele/ukulele2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3ukulele");
-                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele3");
+                this.setTextureName(Reference.MOD_ID+":ukulele/ukulele3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishukulele");
-                this.setTextureName(Reference.MOD_ID+":/ukulele/ukulele4");
+                this.setTextureName(Reference.MOD_ID+":ukulele/ukulele4");
                 this.setMaxDamage(32);
                 break;
         }

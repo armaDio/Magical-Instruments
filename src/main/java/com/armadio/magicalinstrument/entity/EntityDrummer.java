@@ -17,9 +17,9 @@ import net.minecraft.world.World;
  */
 public class EntityDrummer extends EntityMob implements IBossDisplayData {
 
-    public static int MAX_COOLDOWN = 200;
+    public static int MAX_COOLDOWN = 30;
     public boolean isBuffing = false;
-    public int cooldown = 100;
+    public int cooldown;
 
     public EntityDrummer(World par1World) {
         super(par1World);
@@ -29,8 +29,7 @@ public class EntityDrummer extends EntityMob implements IBossDisplayData {
         this.tasks.addTask(4, new EntityAIWander(this, 1.0D));
         this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
         this.tasks.addTask(6, new EntityAILookIdle(this));
-
-
+        cooldown = MAX_COOLDOWN;
     }
 
     @Override

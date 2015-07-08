@@ -42,22 +42,22 @@ public class Drum extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1drum");
-                this.setTextureName(Reference.MOD_ID+":/drum/drum1");
+                this.setTextureName(Reference.MOD_ID+":drum/drum1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2drum");
-                this.setTextureName(Reference.MOD_ID+":/drum/drum2");
+                this.setTextureName(Reference.MOD_ID+":drum/drum2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3drum");
-                this.setTextureName(Reference.MOD_ID+":/drum/drum3");
+                this.setTextureName(Reference.MOD_ID+":drum/drum3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishdrum");
-                this.setTextureName(Reference.MOD_ID + ":/drum/drum4");
+                this.setTextureName(Reference.MOD_ID + ":drum/drum4");
                 this.setMaxDamage(32);
                 break;
         }

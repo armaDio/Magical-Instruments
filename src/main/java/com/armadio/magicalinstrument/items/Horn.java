@@ -44,22 +44,22 @@ public class Horn extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1horn");
-                this.setTextureName(Reference.MOD_ID+":/horn/horn1");
+                this.setTextureName(Reference.MOD_ID+":horn/horn1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2horn");
-                this.setTextureName(Reference.MOD_ID+":/horn/horn2");
+                this.setTextureName(Reference.MOD_ID+":horn/horn2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3horn");
-                this.setTextureName(Reference.MOD_ID+":/horn/horn3");
+                this.setTextureName(Reference.MOD_ID+":horn/horn3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishhorn");
-                this.setTextureName(Reference.MOD_ID+":/horn/horn4");
+                this.setTextureName(Reference.MOD_ID+":horn/horn4");
                 this.setMaxDamage(32);
                 break;
         }

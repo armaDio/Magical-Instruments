@@ -41,22 +41,22 @@ public class Flute extends Item {
         switch (tier){
             case 1:
                 this.setUnlocalizedName("t1flute");
-                this.setTextureName(Reference.MOD_ID+":/flute/flute1");
+                this.setTextureName(Reference.MOD_ID+":flute/flute1");
                 this.setMaxDamage(T1DURABILITY);
                 break;
             case 2:
                 this.setUnlocalizedName("t2flute");
-                this.setTextureName(Reference.MOD_ID+":/flute/flute2");
+                this.setTextureName(Reference.MOD_ID+":flute/flute2");
                 this.setMaxDamage(T2DURABILITY);
                 break;
             case 3:
                 this.setUnlocalizedName("t3flute");
-                this.setTextureName(Reference.MOD_ID+":/flute/flute3");
+                this.setTextureName(Reference.MOD_ID+":flute/flute3");
                 this.setMaxDamage(T3DURABILITY);
                 break;
             case 4:
                 this.setUnlocalizedName("orcishflute");
-                this.setTextureName(Reference.MOD_ID+":/flute/flute4");
+                this.setTextureName(Reference.MOD_ID+":flute/flute4");
                 this.setMaxDamage(32);
                 break;
         }
