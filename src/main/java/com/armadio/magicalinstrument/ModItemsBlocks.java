@@ -2,6 +2,7 @@ package com.armadio.magicalinstrument;
 
 import com.armadio.magicalinstrument.blocks.BossAltar;
 import com.armadio.magicalinstrument.items.*;
+import com.armadio.magicalinstrument.items.single.*;
 import com.armadio.magicalinstrument.tileentities.TileEntityBossAltar;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
@@ -56,6 +57,14 @@ public class ModItemsBlocks {
     public static Item orcishflute;
     public static Item orcishukulele;
 
+    //other instruments
+    public static Item banjo;
+    public static Item harp;
+    public static Item trumpet;
+    public static Item sdf;
+    public static Item qwe;
+
+
     public static Block spawner;
     public static TileEntity spawner_ent;
 
@@ -103,6 +112,13 @@ public class ModItemsBlocks {
         orcishbagpipe = new Bagpipe(4); GameRegistry.registerItem(orcishbagpipe, "orcishbagpipe");
         orcishukulele = new Ukulele(4); GameRegistry.registerItem(orcishukulele, "orcishukulele");
         orcishflute = new Flute(4); GameRegistry.registerItem(orcishflute, "orcishflute");
+
+        //other instruments
+        banjo = new Banjo(); GameRegistry.registerItem(banjo, "banjo");
+        harp = new Harp(); GameRegistry.registerItem(harp, "harp");
+        trumpet = new Trumpet(); GameRegistry.registerItem(trumpet,"trumpet");
+        sdf = new SDF(); GameRegistry.registerItem(sdf,"sdf");
+        qwe = new QWE(); GameRegistry.registerItem(qwe,"qwe");
     }
     public static void initBlocks() {
         spawner = new BossAltar();
