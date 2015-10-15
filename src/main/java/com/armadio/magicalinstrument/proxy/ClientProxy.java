@@ -52,9 +52,9 @@ public class ClientProxy extends CommonProxy {
         MinecraftForgeClient.registerItemRenderer(ModItemsBlocks.orcishflute, new ItemRendererOrcishFlute());
 
 
-
         MinecraftForgeClient.registerItemRenderer(ModItemsBlocks.trumpet, new ItemRendererTrumpet());
         MinecraftForgeClient.registerItemRenderer(ModItemsBlocks.harp, new ItemRendererHarp());
+        MinecraftForgeClient.registerItemRenderer(ModItemsBlocks.banjo, new ItemRendererBanjo());
 
 
         RenderingRegistry.registerEntityRenderingHandler(EntityDrummer.class, new RenderDrummerBoss(new ModelDrummerMob(),0));

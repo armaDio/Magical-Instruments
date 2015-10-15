@@ -7,9 +7,11 @@ import com.armadio.magicalinstrument.lib.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.passive.EntityAnimal;
+import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemDye;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.ChunkCoordinates;
@@ -51,14 +53,13 @@ public class Trumpet extends Item {
         return super.getIconFromDamage(p_77617_1_);
     }
 
-    @Override
+        @Override
     public ItemStack onItemRightClick(ItemStack p_77659_1_, World world, EntityPlayer player) {
         ChunkCoordinates pos = player.getPlayerCoordinates();
         for(Object el : (world.getEntitiesWithinAABB(EntityCreeper.class, AxisAlignedBB.getBoundingBox(pos.posX - AREA, pos.posY - AREA, pos.posZ - AREA, pos.posX + AREA, pos.posY + AREA, pos.posZ + AREA)))) {
             explode((EntityCreeper) el, world);
             ((EntityCreeper) el).setCreeperState(1);
         }
-
         p_77659_1_.damageItem(1,player);
         world.playSoundAtEntity(player, "minst:trumpet", 1, 1);
         return super.onItemRightClick(p_77659_1_, world, player);
