@@ -63,6 +63,8 @@ public class ModItemsBlocks {
     public static Item trumpet;
     public static Item sdf;
     public static Item qwe;
+    public static Item dfg;
+    public static Item lyra;
 
 
     public static Block spawner;
@@ -119,6 +121,8 @@ public class ModItemsBlocks {
         trumpet = new Trumpet(); GameRegistry.registerItem(trumpet,"trumpet");
         sdf = new SDF(); GameRegistry.registerItem(sdf,"sdf");
         qwe = new QWE(); GameRegistry.registerItem(qwe,"qwe");
+        dfg = new DFG(); GameRegistry.registerItem(dfg,"dfg");
+        lyra = new Lyra(); GameRegistry.registerItem(lyra,"lyra");
     }
     public static void initBlocks() {
         spawner = new BossAltar();
