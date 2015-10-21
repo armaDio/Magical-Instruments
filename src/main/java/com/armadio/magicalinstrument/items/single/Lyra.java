@@ -4,6 +4,8 @@ import com.armadio.magicalinstrument.MagicalInstrument;
 import com.armadio.magicalinstrument.ModItemsBlocks;
 import com.armadio.magicalinstrument.lib.MinstConfiguration;
 import com.armadio.magicalinstrument.lib.Reference;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.audio.MovingSound;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.passive.EntityChicken;

@@ -17,8 +17,8 @@ import org.lwjgl.opengl.GL11;
 public class ItemRendererTrumpet implements IItemRenderer {
 
     private int tier;
-    protected IModelCustom model = AdvancedModelLoader.loadModel(new ResourceLocation("minst","models/test1Model.obj"));
-    private ResourceLocation modelTexture = new ResourceLocation("minst", "textures/obj/test1Texture.png");
+    protected IModelCustom model = AdvancedModelLoader.loadModel(new ResourceLocation("minst","models/trumpetModel.obj"));
+    private ResourceLocation modelTexture = new ResourceLocation("minst", "textures/obj/trumpetTexture.png");
 
     public ItemRendererTrumpet(){
     }
@@ -47,7 +47,7 @@ public class ItemRendererTrumpet implements IItemRenderer {
                 GL11.glPushMatrix();
 
                 Minecraft.getMinecraft().renderEngine.bindTexture(modelTexture);
-                GL11.glScaled(0.1d,0.1d,0.1);
+                //GL11.glScaled(0.1d,0.1d,0.1);
                 model.renderAll();
 
                 GL11.glPopMatrix();
