@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " B ",
+    "N  "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minst:goldennote"
+    }
+  },
+  "result": {
+    "item": "minst:t1flute"
+  }
+}

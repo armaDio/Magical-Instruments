@@ -1,0 +1,50 @@
+{
+  "bagpipe": {
+    "subtitle": "sounds.minst.bagpipe",
+    "sounds": [
+      "minst:bagpipe"
+    ]
+  },
+  "drum": {
+    "subtitle": "sounds.minst.drum",
+    "sounds": [
+      "minst:drum"
+    ]
+  },
+  "t4drum": {
+    "subtitle": "sounds.minst.t4drum",
+    "sounds": [
+      "minst:t4drum"
+    ]
+  },
+  "flute": {
+    "subtitle": "sounds.minst.flute",
+    "sounds": [
+      "minst:flute"
+    ]
+  },
+  "horn": {
+    "subtitle": "sounds.minst.horn",
+    "sounds": [
+      "minst:horn"
+    ]
+  },
+  "oboe": {
+    "subtitle": "sounds.minst.oboe",
+    "sounds": [
+      "minst:oboe"
+    ]
+  },
+  "ocarina": {
+    "subtitle": "sounds.minst.ocarina",
+    "sounds": [
+      "minst:ocarina"
+    ]
+  },
+  "ukulele": {
+    "subtitle": "sounds.minst.ukulele",
+    "sounds": [
+      "minst:ukulele"
+    ]
+  }
+}

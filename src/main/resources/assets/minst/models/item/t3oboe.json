@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/oboe",
+  "textures": {
+    "0": "minst:item/oboe/oboe3"
+  }
+}

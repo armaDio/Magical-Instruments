@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/ukulele",
+  "textures": {
+    "0": "minst:item/ukulele/ukulele2"
+  }
+}

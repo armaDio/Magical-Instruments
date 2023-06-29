@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BNB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:ender_eye"
+    },
+    "N": {
+      "item": "minst:nethernote"
+    }
+  },
+  "result": {
+    "item": "minst:endernote"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "item.minst.t1flute":"长笛",
+  "item.minst.t1drum":"鼓",
+  "item.minst.t1oboe":"双簧管",
+  "item.minst.t1ukulele":"琵琶",
+  "item.minst.t1ocarina":"陶笛",
+  "item.minst.t1bagpipe":"风笛",
+  "item.minst.t1horn":"号",
+  "item.minst.t2flute":"下界长笛",
+  "item.minst.t2drum":"下界鼓",
+  "item.minst.t2oboe":"下界双簧管",
+  "item.minst.t2ukulele":"下界琵琶",
+  "item.minst.t2ocarina":"下界陶笛",
+  "item.minst.t2bagpipe":"下界风笛",
+  "item.minst.t2horn":"下界号",
+  "item.minst.t3flute":"末地长笛",
+  "item.minst.t3drum":"末地鼓",
+  "item.minst.t3oboe":"末地双簧管",
+  "item.minst.t3ukulele":"末地琵琶",
+  "item.minst.t3ocarina":"末地陶笛",
+  "item.minst.t3bagpipe":"末地风笛",
+  "item.minst.t3horn":"末地号",
+  "item.minst.t4drum":"雷公鼓",
+  "item.minst.t4oboe":"章鱼哥的单簧管",
+  "item.minst.t4ukulele":"维纳莫宁的康特勒琴",
+  "item.minst.t4bagpipe":"诛神凶残风笛",
+  "item.minst.t4horn":"海姆达尔的号角",
+  "item.minst.t4flute":"潘神箫",
+  "item.minst.t4ocarina":"时之笛",
+  "item.minst.goldennote":"黄金音符",
+  "item.minst.nethernote":"下界音符",
+  "item.minst.endernote":"末地音符",
+  "item.minst.noteofthelegion":"军团音符",
+
+  "creative_tab.minst.inst_tab":"魔法乐器",
+
+  "entity.drummer":"魔法音乐鼓手",
+  "entity.ogre":"魔法音乐首领",
+
+  "block.minst.altar": "音乐祭坛"
+
+}

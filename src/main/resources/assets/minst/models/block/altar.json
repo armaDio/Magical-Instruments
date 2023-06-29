@@ -1,0 +1,175 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "minst:block/altar",
+		"particle": "minst:block/altar"
+	},
+	"elements": [
+		{
+			"name": "MusicAltarMid",
+			"from": [3.2, 1.6, 3.2],
+			"to": [12.8, 9.6, 12.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 5,
+			"faces": {
+				"north": {"uv": [6, 8, 3, 10.5], "texture": "#0"},
+				"east": {"uv": [9, 8, 6, 10.5], "texture": "#0"},
+				"south": {"uv": [12, 8, 9, 10.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3, 8, 0, 10.5], "texture": "#0"},
+				"up": {"uv": [3, 8, 6, 5], "texture": "#0"},
+				"down": {"uv": [6, 5, 9, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarBot",
+			"from": [1.6, 0, 1.6],
+			"to": [14.4, 1.6, 14.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 2,
+			"faces": {
+				"north": {"uv": [8, 14.5, 4, 15], "texture": "#0"},
+				"east": {"uv": [12, 14.5, 8, 15], "texture": "#0"},
+				"south": {"uv": [16, 14.5, 12, 15], "texture": "#0"},
+				"west": {"uv": [4, 14.5, 0, 15], "texture": "#0"},
+				"up": {"uv": [4, 14.5, 8, 10.5], "texture": "#0"},
+				"down": {"uv": [8, 10.5, 12, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarTop",
+			"from": [1.6, 9.6, 1.6],
+			"to": [14.4, 12.8, 14.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 3,
+			"faces": {
+				"north": {"uv": [8, 4, 4, 5], "texture": "#0"},
+				"east": {"uv": [12, 4, 8, 5], "texture": "#0"},
+				"south": {"uv": [16, 4, 12, 5], "texture": "#0"},
+				"west": {"uv": [4, 4, 0, 5], "texture": "#0"},
+				"up": {"uv": [4, 4, 8, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarPillar1",
+			"from": [12, 1.6, 2.4],
+			"to": [13.6, 9.6, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 4,
+			"faces": {
+				"north": {"uv": [9.25, 0.75, 8.75, 3.25], "texture": "#0"},
+				"east": {"uv": [9.75, 0.75, 9.25, 3.25], "texture": "#0"},
+				"south": {"uv": [10.25, 0.75, 9.75, 3.25], "texture": "#0"},
+				"west": {"uv": [8.75, 0.75, 8.25, 3.25], "texture": "#0"},
+				"up": {"uv": [8.75, 0.75, 9.25, 0.25], "texture": "#0"},
+				"down": {"uv": [9.25, 0.25, 9.75, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarPillar2",
+			"from": [12, 1.6, 12],
+			"to": [13.6, 9.6, 13.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [10.75, 0.75, 10.25, 3.25], "texture": "#0"},
+				"east": {"uv": [11.25, 0.75, 10.75, 3.25], "texture": "#0"},
+				"south": {"uv": [11.75, 0.75, 11.25, 3.25], "texture": "#0"},
+				"west": {"uv": [10.25, 0.75, 9.75, 3.25], "texture": "#0"},
+				"up": {"uv": [10.25, 0.75, 10.75, 0.25], "texture": "#0"},
+				"down": {"uv": [10.75, 0.25, 11.25, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarPillar3",
+			"from": [2.4, 1.6, 12],
+			"to": [4, 9.6, 13.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 1,
+			"faces": {
+				"north": {"uv": [10.25, 0.75, 9.75, 3.25], "texture": "#0"},
+				"east": {"uv": [10.75, 0.75, 10.25, 3.25], "texture": "#0"},
+				"south": {"uv": [11.25, 0.75, 10.75, 3.25], "texture": "#0"},
+				"west": {"uv": [9.75, 0.75, 9.25, 3.25], "texture": "#0"},
+				"up": {"uv": [9.75, 0.75, 10.25, 0.25], "texture": "#0"},
+				"down": {"uv": [10.25, 0.25, 10.75, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MusicAltarPillar4",
+			"from": [2.4, 1.6, 2.4],
+			"to": [4, 9.6, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"color": 2,
+			"faces": {
+				"north": {"uv": [10.25, 1.25, 9.75, 3.75], "texture": "#0"},
+				"east": {"uv": [10.75, 1.25, 10.25, 3.75], "texture": "#0"},
+				"south": {"uv": [11.25, 1.25, 10.75, 3.75], "texture": "#0"},
+				"west": {"uv": [9.75, 1.25, 9.25, 3.75], "texture": "#0"},
+				"up": {"uv": [9.75, 1.25, 10.25, 0.75], "texture": "#0"},
+				"down": {"uv": [10.25, 0.75, 10.75, 1.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [17, 30, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "MusicAltarMid",
+			"origin": [0, 12, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "MusicAltarBot",
+			"origin": [0, 2, 0],
+			"color": 0,
+			"children": [1]
+		},
+		{
+			"name": "MusicAltarTop",
+			"origin": [0, 16, 0],
+			"color": 0,
+			"children": [2]
+		},
+		{
+			"name": "MusicAltarPillar1",
+			"origin": [6, 12, -6],
+			"color": 0,
+			"children": [3]
+		},
+		{
+			"name": "MusicAltarPillar2",
+			"origin": [6, 12, 6],
+			"color": 0,
+			"children": [4]
+		},
+		{
+			"name": "MusicAltarPillar3",
+			"origin": [-6, 12, 6],
+			"color": 0,
+			"children": [5]
+		},
+		{
+			"name": "MusicAltarPillar4",
+			"origin": [-6, 12, -6],
+			"color": 0,
+			"children": [6]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " B ",
+    "N  "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "N": {
+      "item": "minst:noteofthelegion"
+    }
+  },
+  "result": {
+    "item": "minst:t4oboe"
+  }
+}

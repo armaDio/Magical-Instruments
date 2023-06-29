@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/horn",
+  "textures": {
+    "0": "minst:item/horn/horn3"
+  }
+}

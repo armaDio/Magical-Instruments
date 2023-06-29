@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "minst:item/drum/drum4"
+	},
+	"elements": [
+		{
+			"name": "orcishDrumTop",
+			"from": [3, 8, 3],
+			"to": [13, 11, 13],
+			"faces": {
+				"north": {"uv": [5, 5, 2.5, 6.5], "texture": "#0"},
+				"east": {"uv": [7.5, 5, 5, 6.5], "texture": "#0"},
+				"south": {"uv": [10, 5, 7.5, 6.5], "texture": "#0"},
+				"west": {"uv": [2.5, 5, 0, 6.5], "texture": "#0"},
+				"up": {"uv": [2.5, 5, 5, 0], "texture": "#0"},
+				"down": {"uv": [5, 0, 7.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "orcishDrumBot",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"faces": {
+				"north": {"uv": [4, 10.5, 2, 14.5], "texture": "#0"},
+				"east": {"uv": [6, 10.5, 4, 14.5], "texture": "#0"},
+				"south": {"uv": [8, 10.5, 6, 14.5], "texture": "#0"},
+				"west": {"uv": [2, 10.5, 0, 14.5], "texture": "#0"},
+				"up": {"uv": [2, 10.5, 4, 6.5], "texture": "#0"},
+				"down": {"uv": [4, 6.5, 6, 10.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-6, 2, -1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-6, 2, -1]
+		},
+		"firstperson_righthand": {
+			"translation": [-2, 2.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"translation": [-2, 2.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [5, -168, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [-0.25, 3.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	},
+	"groups": [
+		{
+			"name": "orcishDrumTop",
+			"origin": [0, 24, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "orcishDrumBot",
+			"origin": [0, 24, 0],
+			"color": 0,
+			"children": [1]
+		}
+	]
+}

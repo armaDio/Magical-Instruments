@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "BB ",
+    " BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minst:endernote"
+    }
+  },
+  "result": {
+    "item": "minst:t3horn"
+  }
+}

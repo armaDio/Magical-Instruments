@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/bagpipe",
+  "textures": {
+    "1": "minst:item/bagpipe/bagpipe2"
+  }
+}

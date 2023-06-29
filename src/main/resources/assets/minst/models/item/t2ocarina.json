@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/ocarina",
+  "textures": {
+    "1": "minst:item/ocarina/ocarina2"
+  }
+}

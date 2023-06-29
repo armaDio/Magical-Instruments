@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " S ",
+    "N  "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minst:nethernote"
+    }
+  },
+  "result": {
+    "item": "minst:t2flute"
+  }
+}

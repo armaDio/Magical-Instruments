@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "BB ",
+    " BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minst:nethernote"
+    }
+  },
+  "result": {
+    "item": "minst:t2horn"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minst:item/flute",
+  "textures": {
+    "0": "minst:item/flute/flute2"
+  }
+}
