@@ -3,6 +3,7 @@ package com.armadio.magicalinstrument;
 import com.armadio.magicalinstrument.block.ModBlocks;
 import com.armadio.magicalinstrument.block.entity.ModBlockEntities;
 import com.armadio.magicalinstrument.config.MagicalInstrumentCommonConfig;
+import com.armadio.magicalinstrument.enchantments.ModEnchantments;
 import com.armadio.magicalinstrument.entity.ModEntityTypes;
 import com.armadio.magicalinstrument.entity.client.DrummerRenderer;
 import com.armadio.magicalinstrument.entity.client.OrcRenderer;
@@ -43,6 +44,7 @@ public class MagicalInstrument {
 
         ModEntityTypes.register(modEventBus);
         GeckoLib.initialize();
+        ModEnchantments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -88,8 +90,7 @@ public class MagicalInstrument {
             event.accept(ModItems.T2UKULELE);
             event.accept(ModItems.T3UKULELE);
             event.accept(ModItems.T4UKULELE);
-            /*event.accept(ModItems.ORC_SPAWN_EGG);
-            event.accept(ModItems.DRUMMER_SPAWN_EGG);*/
+            event.accept(ModItems.LYRA);
             event.accept(ModBlocks.ALTAR);
         }
     }

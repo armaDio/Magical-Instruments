@@ -45,5 +45,10 @@
   "sounds.minst.flute": "Suono di flauto",
   "sounds.minst.oboe": "Suono di oboe",
   "sounds.minst.ocarina": "Suono di ocarina",
-  "sounds.minst.ukulele": "Suono di ukulele"
+  "sounds.minst.ukulele": "Suono di ukulele",
+
+  "enchantment.minst.buff_duration": "Durata Effetto",
+  "enchantment.minst.tier_increase": "Miglioramento Effetto",
+  "enchantment.minst.area_increase": "Area Increase",
+  "enchantment.minst.no_durability": "Durable Instruments"
 }

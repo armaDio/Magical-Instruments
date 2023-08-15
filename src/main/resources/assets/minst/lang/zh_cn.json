@@ -37,6 +37,11 @@
   "entity.drummer":"魔法音乐鼓手",
   "entity.ogre":"魔法音乐首领",
 
-  "block.minst.altar": "音乐祭坛"
+  "block.minst.altar": "音乐祭坛",
+
+  "enchantment.minst.buff_duration": "Buff Duration",
+  "enchantment.minst.tier_increase": "Tier Upgrade",
+  "enchantment.minst.area_increase": "Area Increase",
+  "enchantment.minst.no_durability": "Durable Instruments"
 
 }

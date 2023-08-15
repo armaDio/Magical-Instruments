@@ -5,9 +5,11 @@ import com.armadio.magicalinstrument.block.entity.ModBlockEntities;
 import com.armadio.magicalinstrument.entity.ModEntityTypes;
 import com.armadio.magicalinstrument.entity.custom.DrummerEntity;
 import com.armadio.magicalinstrument.entity.custom.OrcEntity;
+import com.mojang.datafixers.types.templates.Tag;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.TagKey;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -17,6 +19,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseEntityBlock;
@@ -26,6 +29,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -76,6 +80,8 @@ public class AltarBlock extends BaseEntityBlock {
         }
         return InteractionResult.FAIL;
     }
+
+
 
 
     private void activateRitual(Level level, int x, int y, int z) {

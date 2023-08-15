@@ -45,5 +45,10 @@
   "sounds.minst.flute": "Flute melody playing",
   "sounds.minst.oboe": "Oboe melody playing",
   "sounds.minst.ocarina": "Ocarina melody playing",
-  "sounds.minst.ukulele": "Ukulele melody playing"
+  "sounds.minst.ukulele": "Ukulele melody playing",
+
+  "enchantment.minst.buff_duration": "Buff Duration",
+  "enchantment.minst.tier_increase": "Tier Upgrade",
+  "enchantment.minst.area_increase": "Area Increase",
+  "enchantment.minst.no_durability": "Durable Instruments"
 }

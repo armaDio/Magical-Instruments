@@ -150,7 +150,9 @@ public class DrummerEntity extends Monster implements GeoEntity {
         if(players >1){
             healthMultiplier += players * 0.25D;
         }
-        this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(this.max_health * healthMultiplier);
+        double calculatedHealth = this.max_health * healthMultiplier;
+        this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(calculatedHealth);
+        this.setHealth((float) calculatedHealth);
     }
 
     public List<Player> getPlayersAround() {

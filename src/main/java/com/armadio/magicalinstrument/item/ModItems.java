@@ -98,6 +98,11 @@ public class ModItems {
             ()-> new UkuleleItem(new InstrumentProperties().tier(4)));
 
 
+    //LYRA
+    public static final RegistryObject<Item> LYRA = ITEMS.register("lyra",
+            ()-> new LyraItem(new InstrumentProperties().tier(1)));
+
+
     /*public static final RegistryObject<Item> ORC_SPAWN_EGG = ITEMS.register("orc_spawn_egg",
             ()-> new ForgeSpawnEggItem(ModEntityTypes.ORC,
                     0x37702d,0x702d2d,

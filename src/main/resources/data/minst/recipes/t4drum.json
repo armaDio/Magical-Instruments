@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SLS",
-    "CWC",
-    "CLC"
+    "WCW",
+    "WCW"
   ],
   "key": {
     "S": {
@@ -16,7 +16,7 @@
       "item": "minst:noteofthelegion"
     },
     "W": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
